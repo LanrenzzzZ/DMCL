@@ -37,8 +37,8 @@ $ cd ~/DMCL/catkin_ws
 $ source devel/setup.bash
 $ source install/setup.bash --extend
 $ cd ~/DMCL/SAC
-$ conda activate pytorch
-$ python3 main.py
+$ conda activate DMCL
+$ python3 train.py
 ```
 
 #### To kill the training process:
